@@ -1,3 +1,3 @@
-document.write("saonteih");
+document.write("hello webpack");
 
 console.log('snaotehisanohie')
