@@ -1,0 +1,22 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "webpack ./app.js bundle.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamsterofdark/webpack_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamsterofdark/webpack_demo/issues"
+  },
+  "homepage": "https://github.com/hamsterofdark/webpack_demo#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
