@@ -1,3 +1,2 @@
 document.write("hello webpack");
-
-console.log('snaotehisanohie')
+console.log('App loaded');
