@@ -2,8 +2,9 @@
 This web app will demonstrate the core functionalities of webpack. The website itself simply displays "hello webpack" to the browser and console logs something.  Since webpack is a build tool, the commands below show how to build with webpack and how to run inside of webpackdevserver using npm.
 
 ##getting started
-npm install webpack -g
-npm install
+(optional) `npm install webpack -g`
+
+`npm install`
 
 ##to build from cli
 ###using the webpack config file (recommended)
