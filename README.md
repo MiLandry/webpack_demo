@@ -1,5 +1,5 @@
 #Webpack demo
-This web app will demonstrate the core functionalities of webpack. The website itself simply displays "hello webpack" to the browser and console logs something.  Since webpack is a build tool, the commands below show how to build with webpack and how to run inside of webpackdevserver using npm.
+This web app will demonstrate the core functionalities of webpack. The website itself simply displays "hello webpack" to the browser and console logs something.  Since webpack is a build tool, the commands below show how to build with webpack and how to run inside of webpackdevserver using npm. It uses the commonjs module loading system, although webpack should be able to work with any of them.
 
 ##getting started
 (optional) `npm install webpack -g`
