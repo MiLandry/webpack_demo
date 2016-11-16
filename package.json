@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/hamsterofdark/webpack_demo#readme",
   "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2016": "^6.16.0",
     "webpack": "^1.13.2"
   }
 }
