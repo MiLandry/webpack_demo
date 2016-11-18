@@ -9,7 +9,18 @@ This web app will demonstrate the core functionalities of webpack. The website i
 ##to build from cli
 ###using the webpack config file (recommended)
 this will "webpack" all the input files into corresponding output files as defined in webpack.config.js. its also more convenient
+
 `webpack`
+
+if you want to run the production build (this triggers the minify option) :
+
+`webpack -p`
+
+but you don't just want the out of the box stuff for the prod build, you want other custom stuff too (like stripping out console.logs), as declared in the custom config file, so run this:
+
+`webpack --config webpack-production.config.js -p`
+
+Usually the above command is not something you would store as a script or in the repo, you are going to likely stick this in a build server somewhere.
 
 ###the raw webpack command
 NB: don't use the raw command, it doesn"t work well.  It might be a whitespace/carriage thing but stick to using the config file for commmands
