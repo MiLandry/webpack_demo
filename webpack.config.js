@@ -14,7 +14,7 @@ module.exports = {
       ],
       loaders: [
       {
-        test: /\.es6$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         loader: "babel-loader"
       }
@@ -22,6 +22,6 @@ module.exports = {
     },
 
     resolve: {
-      extensions: ['', '.js', '.es6']
+      extensions: ['', '.js']
     }
 }
